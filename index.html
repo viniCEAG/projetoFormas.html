@@ -1,51 +1,63 @@
-           <!DOCTYPE html>
+        <!DOCTYPE html>
 <html lang="pt">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Formas Geométricas</title>
-<style>
-.container {
-display: flex;
-justify-content: space-around;
-align-items: center;
-height: 100vh;
-background-color: #f4f4f4;
-}
-.quadrado {
-width: 100px;
-height: 100px;
-background-color: blue;
-}
-.circulo {
-width: 100px;
-height: 100px;
-background-color: red;
-border-radius: 50%;
-}
-.triangulo {
-width: 0;
-height: 0;
-
-border-left: 50px solid transparent;
-border-right: 50px solid transparent;
-border-bottom: 100px solid green;
-}
-.retangulo {
-width: 0;
-height: 0;
-
-border-left: 50px solid transparent;
-border-right: 50px solid transparent;
-border-bottom: 100px solid rgb(128, 0, 79);
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formas Geométricas</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .quadrado {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+        }
+        .circulo {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border-radius: 50%;
+        }
+        .triangulo {
+            width: 0;
+            height: 0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-bottom: 100px solid green;
+        }
+        .losango {
+            width: 100px;
+            height: 100px;
+            background-color: purple;
+            transform: rotate(45deg);
+        }
+        .retangulo {
+            width: 200px;
+            height: 100px;
+            background-color: orange;
+        }
+        .hexagono {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        }
+    </style>
 </head>
 <body>
-<div class="container">
-<div class="quadrado"></div>
-<div class="circulo"></div>
-<div class="triangulo"></div>
-</div>
+    <div class="container">
+        <div class="quadrado"></div>
+        <div class="circulo"></div>
+        <div class="triangulo"></div>
+        <div class="losango"></div>
+        <div class="retangulo"></div>
+        <div class="hexagono"></div>
+    </div>
 </body>
 </html>
+
