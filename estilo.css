@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+.quadrado {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.circulo {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
+.triangulo {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid green;
+}
+.losango {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    transform: rotate(45deg);
+}
+.retangulo {
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+}
+.hexagono {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
